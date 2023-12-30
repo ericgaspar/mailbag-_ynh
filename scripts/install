@@ -53,7 +53,7 @@ yunohost service add $app --description="MailBag Queue" --log="/var/log/$app/$ap
 #=================================================
 ynh_script_progression --message="Installing Composer..." --weight=10
 
-ynh_install_composer --install_args="--no-dev"
+ynh_install_composer
 
 #=================================================
 # ADD A CONFIGURATION
