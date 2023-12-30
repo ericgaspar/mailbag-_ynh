@@ -48,7 +48,8 @@ ram.runtime = "50M"
         sha256 = "8745550ec11f1fae505c98542044232643d23c3a5a47b5b15694d84d7265d8c2"
 
     [resources.system_user]
-
+    allow_email = true
+    
     [resources.install_dir]
 
     [resources.permissions]
