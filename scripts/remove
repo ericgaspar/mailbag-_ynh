@@ -29,6 +29,8 @@ ynh_remove_nginx_config
 
 ynh_remove_fpm_config
 
+ynh_secure_remove --file="/etc/cron.d/$app"
+
 # Remove NodeJS
 ynh_remove_nodejs
 
